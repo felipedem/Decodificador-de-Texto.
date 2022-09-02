@@ -1,0 +1,100 @@
+* {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.decodificadorTitulo {
+    margin-left: 145px;
+    margin-top: 40px;
+}
+
+.imagemBoneco {
+    width: 4%;
+    margin-top: -40px;
+    margin-left: 55px;
+    transform: scaleX(-1);
+}
+
+body {
+    background-color: #2c2c2c52;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+} 
+
+.input-texto {
+    margin-top: 90px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 2.5px;
+    background-size: 300px;
+}
+
+
+.mensagem {
+    position: fixed;
+    margin-top: 90px;
+    margin-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 18px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 2.5px;
+    background-size: 300px;
+}
+
+.copiar {
+    position: fixed;
+    margin-top: 399px;
+    margin-left: -290px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+} 
+
+.move {
+    display: inline-block; 
+    cursor: move; 
+  }
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color:white;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.informacao {
+    font-size: 15px;
+    margin-left: 5px;
+}
